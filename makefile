@@ -7,8 +7,8 @@ build:
 graph:
 	@npx nx graph
 
-build-affected:
-	@npx nx affected:build --parallel
+build-a:
+	@npx nx affected:build --parallel --base=master
 
-graph-affected:
-	@npx nx affected:graph
+graph-a:
+	@npx nx affected:graph --base=master
