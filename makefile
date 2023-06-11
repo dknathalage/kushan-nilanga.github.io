@@ -4,9 +4,6 @@ install:
 dev:
 	@npx nx run-many --target=dev --parallel
 
-# build:
-# 	@npx nx run-many --target=build --parallel
-
 graph:
 	@npx nx affected:graph --base=master --watch
 
@@ -15,6 +12,3 @@ build:
 
 deploy:
 	@npx nx run-many --target=deploy --parallel
-
-infra-graph:
-	@npx nx run-many --target=infra-graph --parallel
