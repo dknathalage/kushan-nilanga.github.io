@@ -1,0 +1,12 @@
+{
+  "name": "web.infra.terraform",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "terraform validate",
+    "deploy": "terraform apply --auto-approve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

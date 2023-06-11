@@ -5,10 +5,13 @@ build:
 	@npx nx run-many --target=build --parallel
 
 graph:
-	@npx nx graph
+	@npx nx affected:graph --base=master
 
 build-a:
 	@npx nx affected:build --parallel --base=master
 
-graph-a:
-	@npx nx affected:graph --base=master
+deploy:
+	@npx nx run-many --target=deploy --parallel
+
+infra-graph:
+	@npx nx run-many --target=infra-graph --parallel
