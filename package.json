@@ -1,12 +1,9 @@
 {
   "name": "monorepo",
   "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "Monorepository",
   "keywords": [],
-  "author": "",
+  "author": "don-athalage",
   "license": "ISC",
   "devDependencies": {
     "nx": "^16.3.2"
