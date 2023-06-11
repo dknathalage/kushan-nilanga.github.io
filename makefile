@@ -1,3 +1,6 @@
+install:
+	@npx nx run-many --target=install --parallel
+
 dev:
 	@npx nx run-many --target=dev --parallel
 

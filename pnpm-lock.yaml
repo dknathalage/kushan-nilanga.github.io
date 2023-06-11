@@ -12,7 +12,7 @@ importers:
         specifier: ^16.3.2
         version: 16.3.2
 
-  apps/web.api.nest:
+  apps/apis/web.api.nest:
     dependencies:
       '@nestjs/common':
         specifier: ^9.0.0
@@ -94,7 +94,7 @@ importers:
         specifier: ^5.0.0
         version: 5.0.4
 
-  apps/web.client.remix:
+  apps/clients/web.client.remix:
     dependencies:
       '@remix-run/css-bundle':
         specifier: ^1.17.0
@@ -139,6 +139,8 @@ importers:
       typescript:
         specifier: ^5.0.4
         version: 5.0.4
+
+  infrastructure/web.infra.terraform: {}
 
 packages:
 
