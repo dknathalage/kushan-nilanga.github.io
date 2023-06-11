@@ -8,7 +8,7 @@ build:
 	@npx nx run-many --target=build --parallel
 
 graph:
-	@npx nx affected:graph --base=master
+	@npx nx affected:graph --base=master --watch
 
 build-a:
 	@npx nx affected:build --parallel --base=master
