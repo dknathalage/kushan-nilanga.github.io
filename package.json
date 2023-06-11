@@ -6,6 +6,7 @@
   "author": "don-athalage",
   "license": "ISC",
   "devDependencies": {
-    "nx": "^16.3.2"
+    "nx": "^16.3.2",
+    "typescript": "^5.1.3"
   }
 }

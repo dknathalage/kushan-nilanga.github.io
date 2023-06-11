@@ -1,0 +1,245 @@
+type: resume
+title: Don Athalage
+sections:
+  - header:
+    type: header
+    title:
+    data:
+      - type: paragraph
+        title:
+        data:
+          - dknathalage@gmail.com
+          - https://www.linkedin.com/in/don-athalage/
+          - https://github.com/Kushan-Nilanga
+          - Melbourne, VIC
+
+  - summary:
+    type: subsection
+    title: Summary
+    data:
+      - summary-para:
+        type: paragraph
+        data:
+          - I am a highly competent software engineering undergraduate student with multiple research projects and attractive academic performance. In addition, I have taken a leadership role in multiple projects with impressive results. I am an excellent team player and have extensive knowledge in technical subjects in software engineering, machine learning, cloud development and data engineering. I aspire to become a highly competent Solutions Architect.
+
+  - skills:
+    type: subsection
+    title: Skills
+    data:
+      - skills-subsection:
+        type: column-list
+        data:
+          - Cloud Engineering and Architecture.
+          - Ability to work in teams and independantly.
+          - Critical thinker and fast learner.
+          - Strong interpersonal and engagement skills
+          - Full-stack developement
+          - Machine learning and natural language processing
+
+  - education:
+    type: subsection
+    title: Education
+    data:
+      - Deakin:
+        type: special-list
+        top-left: Bachelor of Software Engineering (Honours)
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: Expected December 2023
+        tags:
+          - Software Engineering
+          - Datastructures and Algorithms
+          - Distributed Computing
+          - Cloud Development
+          - Database Development
+          - Machine Learning
+        data:
+          - WAM 85.8
+          - Peer Mentor - 2020
+          - Associate Dean Research Summer Project (Scholarship) - 2021
+          - Deakin Higher Degrees by Research funded project (Scholarship) - 2021
+          - Course Work - Programming, Datastructures and Algorithms, Distributed computing, Cloud developement, Database development, Machine learning
+          - Project Work - Multiple research and course work projects extended beyond undergraduate curriculum.
+
+  - experience:
+    type: subsection
+    title: Experience
+    data:
+      - anz:
+        type: special-list
+        top-left: Cloud Solutions Architect
+        top-right: Melbourne, VIC
+        bottom-left: The Australia and New Zealand Banking Group
+        bottom-right: March 2023 – Present
+        tags:
+          - Solutions Architecture
+          - AWS & GCP
+          - Hybrid Cloud
+        data:
+          - Provide deep technical expertise to help internal customers within ANZ design/redesign their applications for cloud.
+
+      - anz-intern:
+        type: special-list
+        top-left: Cloud Solutions Architect Internship
+        top-right: Melbourne, VIC
+        bottom-left: The Australia and New Zealand Banking Group
+        bottom-right: August 2022 – March 2023
+        tags:
+          - Solutions Architecture
+          - AWS & GCP
+          - Hybrid Cloud
+        data:
+          - Developing a deep technical understanding of cloud technologies and help internal customers within ANZ design/redesign their applications for cloud.
+          - Work to create reusable pre-approved designs ANZ teams can use get on the cloud faster and are currently setting up test apps teams can use to easily understand how we deploy to cloud in ANZ.
+          - Develop technical expertize on cloud platforms such as AWS, GCP and Azure
+          - Perform as a trusted technical advisor, setting best practices for Cloud solution designs and enabling Customers to implement well architected, cloud native solutions on Google Cloud Platform (GCP), Amazon Web Services (AWS) and Software as a Service (SaaS) platforms
+
+      - research:
+        type: special-list
+        top-left: Research Assistant
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: September 2021 – February 2022
+        tags:
+          - Machine Learning
+          - Natural Language Processing
+          - Information Extraction
+        data:
+          - Conducting thorough literature review on approaches on NLP information extraction methods.
+          - Conducted research on probabilistic and machine learning models for Named Entity Recognition and Relation Extraction.
+          - Conducting research on deep learning (Transformer) models on information extraction.
+          - Developed NLP Pipeline for data cleaning, preprocessing, entity extraction and relation extraction.
+          - Supported collegues on research for rule based approaches for entity extraction.
+
+  - certifications:
+    type: subsection
+    title: Certifications
+    data:
+      - devops:
+        type: special-list
+        top-left: AWS Certified DevOps Engineer - Professional
+        top-right: Melbourne, VIC
+        bottom-left: Amazon Web Services
+        bottom-right: August 2021 – August 2024
+        tags:
+          - AWS
+          - Multi Region
+          - High Availability
+          - CI/CD
+        data:
+          - Experienced in designing and implementing monitoring, metrics, and logging solutions to optimize system performance and implementing AWS security and compliance services and best practices in a DevOps context to ensure secure and compliant systems.
+          - Skilled in Infrastructure as Code (IAC) using AWS CloudFormation and Terraform, to programmatically manage infrastructure resources.
+          - Proficient in implementing continuous delivery and deployment techniques, automation and orchestration of releases, testing and validation strategies, and utilizing monitoring and feedback to improve the process.
+
+      - developer:
+        type: special-list
+        top-left: AWS Certified Developer - Associate
+        top-right: Melbourne, VIC
+        bottom-left: Amazon Web Services
+        bottom-right: August 2021 – August 2024
+        tags:
+          - AWS
+          - Cloud-Development
+        data:
+          - Proficient in developing, deploying, and debugging cloud-based applications on AWS utilizing services such as EC2, S3, DynamoDB, and RDS. Skilled in writing code for serverless applications using AWS Lambda.
+          - Experienced in implementing security best practices such as encryption, IAM roles and policies, and secure application development on AWS. Capable of designing, developing, and maintaining AWS applications that utilize AWS services, as well as designing and implementing APIs for applications on AWS.
+
+      - architect:
+        type: special-list
+        top-left: AWS Certified Solutions Architect - Associate
+        top-right: Melbourne, VIC
+        bottom-left: Amazon Web Services
+        bottom-right: August 2021 – August 2024
+        tags:
+          - AWS
+          - Well-Architected
+          - Cloud-Architecture
+          - High-Availability
+        data:
+          - Demonstrated expertise in designing and deploying scalable, highly available, and fault-tolerant systems on AWS, by obtaining the AWS Certified Solutions Architect Associate certification. Skilled in AWS architecture, services, and best practices.
+          - Capable of designing cost-effective, secure, and scalable solutions on AWS by demonstrating proficiency in cost optimization, security best practices, and designing and deploying fault-tolerant systems.
+
+  - projects:
+    type: subsection
+    title: Projects
+    data:
+      - exact-cover:
+        type: special-list
+        top-left: Exact Cover Problem Solver
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: August 2021 – November 2021
+        tags:
+          - Datastructures
+          - Algorithms
+          - Combinatorial-algorithms
+          - Python
+          - C++
+        data:
+          - C++, Python, Combinatorial Algorithms
+          - Deakin HDR funded summer research scholarship
+          - Conducted research on Zero-Suppresed Binary Decision Diagrams (ZDD) compressing set representation.
+          - Studied DLX algorithms on solving exact cover problems.
+          - Conducted performance evaluation on special cominatorial algorithm DLX (Exact Covers).
+          - Implemented said DanceDD and D3X data-structure and algorithm using C++ and Python.
+
+      - nlp:
+        type: special-list
+        top-left: NLP Information Extraction
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: September 2021 – February 2022
+        tags:
+          - Machine Learning
+          - Reinforcement Learning
+          - Network Slicing
+          - 5G Radio Access Network
+          - Python
+        data:
+          - Deakin ADR summer project scholarship
+          - Studied 5G New Radio Specification on Network Function Virtualisation
+          - Research novel approaches on 5G Network Slicing optimisation using machine learning
+          - Conducted research on policy iteration based Reinforcement Learning approached for network slicing
+          - Implemented a simulation suite for 5G Network Slicing and resource allocation
+          - Implementing a Policy based Reinforcement Learning Algorthm for Slice Optimisation.
+
+  - volunteering:
+    type: subsection
+    title: Volunteering
+    data:
+      - peer-support:
+        type: special-list
+        top-left: Peer Support Mentor
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: March 2020 – Present
+        tags:
+          - Software Engineering
+        data:
+          - Mentored first year students in Software Engineering
+          - Conducted weekly sessions on programming, datastructures and algorithms
+          - Communicated with students and helped them with their knowledge gaps
+
+      - guest-lectur:
+        type: special-list
+        top-left: Guest Lecturer
+        top-right: Melbourne, VIC
+        bottom-left: Deakin University
+        bottom-right: April 2023 – Present
+        tags:
+          - Cloud Development
+          - Cloud Architecture
+          - DevOps
+        data:
+          - Conducted a guest lecture on cloud computing and cloud architecture.
+          - Helped students understand the cloud computing landscape and how to get started with cloud development.
+          - Provided guidance on how to get started with cloud computing
+
+  # - references:
+  #   type: subsection
+  #   title: References
+  #   data:
+  #     - notes:
+  #       type: paragraph
+  #       data:
+  #         - References available upon request
