@@ -5,6 +5,9 @@
   "keywords": [],
   "author": "don-athalage",
   "license": "ISC",
+  "scripts": {
+    "build": "git ls-tree --full-tree --name-only -r HEAD | tree --fromfile . > ProjectStructure.md"
+  },
   "devDependencies": {
     "nx": "^16.3.2",
     "typescript": "^5.1.3"
