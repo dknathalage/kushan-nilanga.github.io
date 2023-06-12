@@ -2,7 +2,7 @@ install:
 	@npx nx run-many --target=install --parallel
 
 dev:
-	@npx nx run-many --target=dev --parallel
+	@npx nx run-many --target=dev --parallel --projects=$(first)
 
 graph:
 	@npx nx affected:graph --base=master --watch
