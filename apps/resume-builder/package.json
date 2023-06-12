@@ -2,21 +2,24 @@
   "name": "resume-builder",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc",
-    "dev": "tsc -w"
+    "dev": "nodemon --ext 'ts,yaml,json' --exec 'tsc && pwd && node ./dist/index.js resume.yaml'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/js-yaml": "^4.0.5",
+    "@types/mustache": "^4.2.2",
     "@types/node": "^20.3.0",
+    "nodemon": "^2.0.22",
     "typescript": "^5.1.3"
   },
   "dependencies": {
     "fs": "0.0.1-security",
-    "js-yaml": "^4.1.0"
+    "js-yaml": "^4.1.0",
+    "mustache": "^4.2.0"
   }
 }
