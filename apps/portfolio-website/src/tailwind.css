@@ -570,3 +570,7 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+.p-10 {
+  padding: 2.5rem;
+}
